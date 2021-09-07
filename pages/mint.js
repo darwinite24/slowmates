@@ -81,18 +81,18 @@ export default function Mint() {
 
   }
 
-  async function minttestcase(how_many_testcases) {
+  async function mintTestcase(how_many_testcases) {
     if (testcaseContract) {
 
       const price = Number(testcasePrice)  * how_many_testcases
 
-      const gasAmount = await testcaseContract.methods.minttestcase(how_many_testcases).estimateGas({from: walletAddress, value: price})
+      const gasAmount = await testcaseContract.methods.mintTestcase(how_many_testcases).estimateGas({from: walletAddress, value: price})
       console.log("estimated gas",gasAmount)
 
       console.log({from: walletAddress, value: price})
 
       testcaseContract.methods
-            .minttestcase(how_many_testcases)
+            .mintTestcase(how_many_testcases)
             .send({from: walletAddress, value: price, gas: String(gasAmount)})
             .on('transactionHash', function(hash){
               console.log("transactionHash", hash)
@@ -173,7 +173,7 @@ export default function Mint() {
 
                 </div>
                 {saleStarted ?
-                <button onClick={() => minttestcase(how_many_testcases)} className="mt-4 PermanentMarker-Regular text-4xl border-6 bg-blau  text-black hover:text-black p-2 ">Mint {how_many_testcases} testcases for {(testcasePrice * how_many_testcases) / (10 ** 18)} ETH + GAS</button>
+                <button onClick={() => mintTestcase(how_many_testcases)} className="mt-4 PermanentMarker-Regular text-4xl border-6 bg-blau  text-black hover:text-black p-2 ">Mint {how_many_testcases} testcases for {(testcasePrice * how_many_testcases) / (10 ** 18)} ETH + GAS</button>
                   : <button className="mt-4 PermanentMarker-Regular text-4xl border-6 bg-blau  text-black hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
 
               }
