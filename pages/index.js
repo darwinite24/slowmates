@@ -39,6 +39,7 @@ export default function Home() {
 
       
 
+
           <div className="flex flex-col items-center border-b-20 ">
             <img src="images/slowmate_creation_timelapse.gif"/>
             <a href="/mint" className="mt-4 PermanentMarker-Regular text-4xl border-6 bg-white rounded-xl ring-4 text-black hover:text-black p-2 ">MINT</a>
@@ -59,18 +60,31 @@ export default function Home() {
                   </div>
                   <img className="lg:w-1/2 w-3/4" src="images/collage.png" width="500px" />
             </div>
-
             </div>
 
-              <div id="rarity" className="flex flex-col items-center border-b-20 ">
-                <img src="images/rarity.png"/>
-              </div>
+            <div className="mt-6 border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
+            <div id="about" className="flex flex-wrap lg:flex-nowrap justify-around items-center">
+                  <div className="lg:w-1/2 w-3/4">
+                  <img className="lg:w-1/2 w-3/4" src="images/rarity_board.png" width="500px" />
+                  </div>
+                  <img className="lg:w-1/2 w-3/4" src="images/rarity.png" width="500px" />
+            </div>
+            </div>
+            </div>
+
+          <div className="flex flex-col items-center border-b-20 ">
+            <img src="images/overallmap.gif"/>
+          </div>
+
+          <div id="team" className="flex flex-col items-center border-b-20 ">
+            <img src="images/W1S4.png"/>
+          </div>
 
               <div id="team" className="flex flex-col items-center border-b-20 ">
                 <img src="images/team.png"/>
               </div>
               
-          </div>
+          
           </div>
     </div>
     )
