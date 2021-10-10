@@ -130,13 +130,13 @@ export default function Mint() {
       <div >
           <div className="flex items-center justify-center w-full border-b-2 border-r-8 border-opacity-0 border-l-8	pb-6 border-opacity-0">
             <a href="/" className=""><img src="images/logo_transparent.png" width="108" alt="" className="logo_transparent-image" /></a>
+
             <nav className="flex flex-wrap flex-row justify-around PermanentMarker-Regular">
               <a href="/mint" className="text-4xl text-black hover:underline m-6">Mint</a>
               <a href="/#about" className="text-4xl text-black hover:underline m-6">About</a>
               <a href="/#rarity" className="text-4xl text-black hover:underline m-6">Rarity</a>
+              <a href="/#roadmap" className="text-4xl text-black hover:underline m-6">Roadmap</a>
               <a href="/#team" className="text-4xl text-black hover:underline m-6">Team</a>
-              <a href="https://twitter.com/testcases" className="text-4xl  hover:text-black m-6 text-blau">TWITTER</a>
-              <a href="https://discord.gg/N239QjZFE2" className="text-4xl  hover:text-black m-6 text-blau">DISCORD</a>
             </nav>
 
           </div>
