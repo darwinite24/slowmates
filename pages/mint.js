@@ -136,7 +136,6 @@ export default function Mint() {
               <a href="/#about" className="text-4xl text-black hover:underline m-6">About</a>
               <a href="/#rarity" className="text-4xl text-black hover:underline m-6">Rarity</a>
               <a href="/#roadmap" className="text-4xl text-black hover:underline m-6">Roadmap</a>
-              <a href="/#team" className="text-4xl text-black hover:underline m-6">Team</a>
             </nav>
 
           </div>

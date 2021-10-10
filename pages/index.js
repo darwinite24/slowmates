@@ -31,7 +31,6 @@ export default function Home() {
               <a href="#about" className="text-4xl text-black hover:underline m-6">About</a>
               <a href="#rarity" className="text-4xl text-black hover:underline m-6">Rarity</a>
               <a href="#roadmap" className="text-4xl text-black hover:underline m-6">Roadmap</a>
-              <a href="#team" className="text-4xl text-black hover:underline m-6">Team</a>
             </nav>
           </div>
 
@@ -129,28 +128,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-6 border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
-              <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
-                <div className="lg:w-full">
-                  <h1 className="text-4xl PermanentMarker-Regular text-black font-bold"></h1>
-                  <p className="text-2xl PermanentMarker-Regular text-black ">
-                 </p>
-                    <img className="lg:w-full" src="images/divide.png" />
-                </div>
-              </div>
-            </div>     
-
-            <div className="mt-6 border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
-              <div id="team" className="flex flex-wrap lg:flex-nowrap justify-around items-center">
-                <div className="lg:w-full">
-                  <h1 className="text-4xl PermanentMarker-Regular text-black font-bold">Slowmates Team </h1>
-                  <p className="text-2xl PermanentMarker-Regular text-black ">
-                    "The following individuals are the initial founders, more team members will be added as the project grows."
-                  </p>
-                    <img className="lg:w-full" src="images/team.png" />
-                </div>
-              </div>
-            </div>     
 
 
           </div>
