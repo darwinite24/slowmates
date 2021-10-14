@@ -78,8 +78,7 @@ export default function Home() {
                 <div className="lg:w-full">
                   <h1 className="text-2xl PermanentMarker-Regular text-black font-bold">How rare is my Slowmate? </h1>
                   <p className="text-lg PermanentMarker-Regular text-black ">
-                    "The rarity of your Slowmate is determined by the rarity of the traits.  Each trait has a unique rarity which contributes to your specific Slowmate's rarity.  Each individual trait has a rarity score based on how many times that trait shows up in the Slowmate population.  The overall rarity score is simply the summation of the each of the rarity score for each individual trait."
-                  </p>
+                  "The rarity of the traits determines the rarity of your Slowmate. Each trait has a rarity score based on how many times that trait shows up in the Slowmate population. The overall rarity score is simply the summation of the rarity scores for each of your Slowmate's traits."                   </p>
                   <img className="lg:w-full" src="images/rarity_board.png" />
                 </div>
               </div>
@@ -90,7 +89,8 @@ export default function Home() {
                 <div className="lg:w-full">
                     <h1 className="text-2xl PermanentMarker-Regular text-black font-bold">So, is there a quick way to determine rarity? </h1>                   
                     <p className="text-lg PermanentMarker-Regular text-black ">
-                    "The background color of your Slowmate is an easy way to determine relative rarity in the Slowmate population. Each color represents a group, a tier, and a numeric point value.                   </p>
+                    "The background color of your Slowmate is an easy way to determine rarity in the Slowmate population. Each color represents a group, a tier, and a numeric point value."
+                    </p>
                     <img className="lg:w-full" src="images/rarity.png" />
                 </div>
               </div>
