@@ -4,19 +4,13 @@ import Head from 'next/head'
 
 
 
-    
-
-
-
-
-
-const navigation = [
+/*const navigation = [
   { name: 'Dashboard', href: '#', current: true },
   { name: 'Team', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Calendar', href: '#', current: false },
 ]
-
+*/
 
 export default function Home() {
 
@@ -48,48 +42,49 @@ export default function Home() {
 
         <div id="root">
               
-                   <nav class="">
-          <div class="flex justify-between items-center md:hidden">
-                      <h1 class="text-2xl font-bold uppercase px-6 py-2 md:hidden">
-                          <a href="/" class="hover:text-gray-700">Slowmates</a>
-                          
-                      </h1>
-                      <div class="px-4 cursor-pointer md:hidden" id="burger">
-                          <svg class="w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                      </div>
-                  </div>
-                  <ul class="text-sm mt-6 hidden md:hidden" id="menu">
-                      <li class="py-1 ">
-                          <a href="#mint" class="px-4 flex justify-center hover:underline">
-                              <span>Mint</span>
-                          </a>
-                      </li>
-                      <li class="py-1 ">
-                          <a href="#about" class="px-4 flex justify-center hover:underline">
-                              <span>About</span>
-                          </a>
-                      </li>
-                      <li class="py-1">
-                          <a href="#rarity" class="px-4 flex justify-center hover:underline">
-                              <span>Rarity</span>
-                          </a>
-                      </li>
-                      <li class="py-1">
-                          <a href="#roadmap" class="px-4 flex justify-center hover:underline">
-                              <span>Roadmap</span>
-                          </a>
-                      </li>
-                      <li class="py-1">
-                          <a href="https://twitter.com/slowmates" class="px-4 flex justify-center hover:underline">
-                              <span>Twitter</span>
-                          </a>
-                      </li>
-                      <li class="py-1">
-                          <a href="https://discord.gg/N239QjZFE2" class="px-4 flex justify-center hover:underline">
-                              <span>Discord</span>
-                          </a>
-                      </li>
-                  </ul>
+          <nav class="">
+                    <div class="flex justify-between items-center md:hidden">
+                        <h1 class="text-2xl font-bold uppercase px-6 pt-2 md:hidden">
+                            <a href="/" class="hover:text-gray-700">Slowmates</a>
+                            
+                        </h1>
+                        <div class="px-4 cursor-pointer md:hidden" id="burger">
+                        <img src="images/menuicon.png" width="20" alt="" />
+                        </div>
+                    </div>
+                    <ul class="flex text-sm mt-6 justify-between md:hidden">
+                        <li class="">
+                            <a href="#mint" class="px-4 flex justify-center hover:underline">
+                                <span>Mint</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#about" class="px-4 flex justify-center hover:underline">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#rarity" class="px-4 flex justify-center hover:underline">
+                                <span>Rarity</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#roadmap" class="px-4 flex justify-center hover:underline">
+                                <span>Roadmap</span>
+                            </a>
+                        </li>
+                     
+                        <li class="">
+                            <a href="https://twitter.com/slowmates" class="px-4 flex justify-center hover:underline">
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://discord.gg/N239QjZFE2" class="px-4 flex justify-center hover:underline">
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                    </ul>
             <div class="w-full mx-auto px-4">
               <div class="flex justify-between">
 
@@ -113,7 +108,7 @@ export default function Home() {
                   <a href="https://twitter.com/slowmates" class="py-5 px-3 text-black hover:underline">Twitter</a>
                   <a href="https://discord.gg/N239QjZFE2" class="py-5 px-3 text-black hover:underline">Discord</a>
                 </div>
-               
+                
               </div>
             </div>
 
@@ -241,6 +236,8 @@ export default function Home() {
           </div>
           
         </div>
+      <script>import 'public/btnscript.js';</script>
+      <script type="text/javascript" src="/public/btnscript.js"></script>
       </body>
      </div>
     
