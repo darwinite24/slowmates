@@ -52,9 +52,9 @@ export default function Home() {
                         <img src="images/menuicon.png" width="20" alt="" />
                         </div>
                     </div>
-                    <ul class="flex text-sm mt-6 justify-between md:hidden">
+                    <ul class="flex text-sm mt-2 justify-between md:hidden">
                         <li class="">
-                            <a href="#mint" class="px-4 flex justify-center hover:underline">
+                            <a href="#mint" class="px-6 flex justify-center hover:underline">
                                 <span>Mint</span>
                             </a>
                         </li>
@@ -73,15 +73,18 @@ export default function Home() {
                                 <span>Roadmap</span>
                             </a>
                         </li>
-                     
+                    </ul>
+
+                    <ul class="flex text-sm mt-4 mx-20 justify-between md:hidden">
                         <li class="">
-                            <a href="https://twitter.com/slowmates" class="px-4 flex justify-center hover:underline">
-                                <span>Twitter</span>
+                            <a href="https://twitter.com/slowmates" class="px-6 flex justify-center hover:underline">
+                                
+                                <img src="images/twitter.png" width="20" alt="" />
                             </a>
                         </li>
                         <li class="">
                             <a href="https://discord.gg/N239QjZFE2" class="px-4 flex justify-center hover:underline">
-                                <span>Discord</span>
+                            <img src="images/discord.png" width="20" alt="" />
                             </a>
                         </li>
                     </ul>
@@ -131,7 +134,7 @@ export default function Home() {
           
           <div className="flex flex-col items-center">
 
-            <div className="mt-6 border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
+            <div className="border-b-2 py-4 border-l-8	pb-6 border-opacity-0">
                 <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="w-full">
                     <h1 className="text-2xl PermanentMarker-Regular text-black font-bold"></h1>
@@ -142,7 +145,7 @@ export default function Home() {
                 </div>
             </div>   
 
-            <div className="mt-6 border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
+            <div className="border-b-2 py-6 border-l-8	pb-6 border-opacity-0">
                 <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="lg:w-full">
                     <h1 className="text-2xl PermanentMarker-Regular text-black font-bold"></h1>
