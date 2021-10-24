@@ -241,8 +241,6 @@ export default function Home() {
           </div>
           
         </div>
-      <script>import 'public/btnscript.js';</script>
-      <script type="text/javascript" src="/public/btnscript.js"></script>
       </body>
      </div>
     
