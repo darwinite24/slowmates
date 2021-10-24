@@ -1,6 +1,6 @@
 import { data } from 'autoprefixer'
 import Head from 'next/head'
-import './btnclick'
+//import './btnclick'
 
 
 
