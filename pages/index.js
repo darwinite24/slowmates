@@ -150,7 +150,7 @@ export default function Home() {
                   <div className="lg:w-full">
                     <h1 className="text-2xl PermanentMarker-Regular text-black font-bold"></h1>
                     <p className="text-lg PermanentMarker-Regular text-black "> </p>
-                      <a className="PermanentMarker-Regular text-4xl bg-white shadow-md px-4 py-2 border-solid border-black rounded-xl ring-4 ring-black text-black cursor-pointer hover:shadow-lg hover:text-black hover:text-bold hover:bg-green-100">MINT</a>
+                      <a className="PermanentMarker-Regular text-4xl bg-white shadow-md px-4 py-2 border-solid border-black rounded-xl ring-4 ring-black text-black cursor-pointer hover:shadow-lg hover:text-black hover:text-bold hover:bg-green-100">COMING SOON</a>
                   </div>
                 </div>
             </div>     
