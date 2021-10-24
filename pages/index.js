@@ -50,7 +50,7 @@ export default function Home() {
               
                    <nav class="">
           <div class="flex justify-between items-center md:hidden">
-                      <h1 class="text-2xl font-bold uppercase p-2 md:hidden">
+                      <h1 class="text-2xl font-bold uppercase px-6 py-2 md:hidden">
                           <a href="/" class="hover:text-gray-700">Slowmates</a>
                           
                       </h1>
