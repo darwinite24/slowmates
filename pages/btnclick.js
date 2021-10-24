@@ -1,4 +1,4 @@
-
+(1)
 /*
 if (typeof window === 'object') {
     // Check if document is finally loaded
